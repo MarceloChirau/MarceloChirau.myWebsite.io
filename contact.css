@@ -1,0 +1,64 @@
+
+body{
+  background-color: white;
+
+}
+@font-face{
+  font-family:myFont;
+  src:url(MadeMirage.otf);
+}
+@font-face{
+font-family: Great;
+src:url(GreatVibes.ttf)
+}
+
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+.navbar-brand{
+  font-family: Great;
+color:#855F32;
+font-size: 1,5rem;
+
+}
+a{
+  text-decoration:none;
+  color:#855F32;
+}
+a:hover{
+  color:black;
+  
+}
+
+
+.contBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      align-items: center;
+    width: 100%;
+    /* max-width: 500px; Limit the width of the container */
+    padding: 20px; /* Add some padding */
+    background-color: white; /* Add a background color */
+    margin-top: 0;
+    position: relative;
+  margin-top: 10%;
+  margin-bottom:1rem;
+
+  }
+
+  .img-container{
+    position:relative;
+    width:70%;
+  }
+  .form-container{
+    position:absolute;
+    top:80%;
+    left:40%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+        <div class="container-fluid " style="background-color: #E0E0E0;">
+            <nav class="navbar navbar-expand-md btn-outline">
+         
+                     <a href="index.html" class="navbar-brand ms-2" >MarceloPhotography</a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId">
+                         <span class="navbar-toggler-icon"></span>
+                     </button>
+             
+                     <div class="collapse navbar-collapse" id="navbarId">
+                         <ul class="navbar-nav">
+                             <li class="navbar-item">
+                                 <a href="boots.html#about" class="navbar-link " >About</a>
+                             </li>
+                             <li class="navbar-item">
+                                 <a href="portfolio.html" class="navbar-link" >Portfolio</a>
+                             </li>
+                             <li class="navbar-item">
+                                 <a href="inquiry.html" class="navbar-link" >Inquiry</a>
+                             </li>
+                             <li class="navbar-item">
+                                    <a href="contact.html" class=" navbar-link ">Contact</a>
+</li>
+                         </ul>
+                        </div>
+
+                 </nav>
+                     </div>
+
+<div class="container-fluid theProcess">
+
+    <h1   style=" font-family: myFont;
+color:#855F32; font-weight: bold;">CHOOSING YOUR WEDDING PHOTOGRAPHER IS A PRECIOUS INVESTMENT
+    </h1>
+    <div class="whiteBox" style="background-color: white;">
+<div class="row">
+    <div class=" col-sm-9 col-md-6 col-lg-6">
+        <img src="edited -feminite/VSV_8263.JPG" alt="" class="img-fluid " style="position:relative; right:2em; width:100%; height:auto;">
+    </div>
+    <div class=" col-sm-3 col-md-6 col-lg-6">
+        <h3 style=" font-family: myFont;
+color:#855F32;">1. Book the date</h3>
+        <p>You can check out all of our services and predefined collections, and fill the form with the requested information. Please have in mind that we choose a limited number of weddings every year. Of course we can meet via Zoom or in-person before booking the date!
+
+        </p>
+        <h3 style=" font-family: myFont;
+color:#855F32;">2. Connect & Prepare</h3>
+        <p>Before your big day we will discuss every detail about it! You can share your ideas and requests with us, and my wife and me will try to learn more about you and your families so we will be well prepared to capture your moments!</p>
+        <h3 style=" font-family: myFont;
+color:#855F32;">3. Capture Moments</h3>
+        <p>We have photograph hundreds of couples, but we never forget that for every couple their wedding day is the most special day of their lives. So, always, we give our best, to live these moments with you, to be your storytellers, and capture the essence of your love story! </p>
+        <h3 style=" font-family: myFont;
+color:#855F32;">4. Deliver Memories</h3>
+        <p>The wedding day now belongs to the past but your story will last forever through our photos and videos. You will take the whole amount of photos (retouched)   in about 2-3 months from the Wedding. If we have albums or video, we will tell you the timeline of delivery depending on the season.</p>
+    </div>
+</div>
+    </div>
+</div>
+
+<div class="container-fluid theInquiry">
+    <h6 style=" font-family: myFont;
+color:#855F32; margin-top:2em;">GIVE US SOME INFORMATION AND WE WILL SEND YOU AN OFFER AS SOON AS POSSIBLE
+
+    </h6>
+    <h2 style="text-align: center; font-family: myFont;
+color:#855F32;">INQUIRY</h2>
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6" style="background-color: white; position:relative; top:3em; left:3em;">
+<form  id="inquiryForm" action="send_inquiry.php" method="POST">
+    <div class="mb-3">
+        <label for="date" class="form-label" style="font-family: myFont;" >DATE OF WEDDING</label>
+        <input id="date" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
+    </div>
+    <div class="mb-3">
+        <label for="location" class="form-label" style="font-family: myFont;">WEDDING LOCATION</label>
+        <input id="location" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
+    </div>
+    <div class="mb-3">
+        <label for="names" class="form-label" style="font-family: myFont;">TYPE BRIDE'S AND GROOM'S NAMES</label>
+        <input id="names" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label" style="font-family: myFont;">YOUR EMAIL ADDRESS</label>
+        <input id="email" type="email" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
+    </div>
+    <div class="mb-3">
+        <label for="collection" class="form-label" style="font-family: myFont;"></label>
+        <select name="collection" id="collection" class="form-select" style="font-family: myFont; border:none; border-bottom:1px solid black; border-radius:0; font-style:italic;">
+            <option selected >Select option</option>
+            <option value="Diamond" >Diamond</option>
+            <option value="Gold" >Gold</option>
+            <option value="Silver" >Silver</option>
+            <option value="Bronze" >Bronze</option>
+
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="comments" class="form-label" style="font-family: myFont;">MORE INFORMATION YOU WANT US TO KNOW</label>
+        <textarea name="comments" id="comments" class="form-control" style="font-family: myFont; border:none; border-bottom:1px solid black; border-radius:0; font-style:italic;"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="social" class="form-label" style="font-family: myFont;">IF YOU WANT YOU CAN SEND US YOUR INSTAGRAM OR OTHER SOCIAL ACCOUNT</label>
+        <input id="social" type="text" class="form-control" style="font-family: myFont; border:none; border-bottom:1px solid black; border-radius:0; font-style:italic;">
+        <div class="form-text"><i style="font-family: myFont;">Let's connect</i></div>
+    </div>
+    <div class="mb-3" style="text-align: center;">
+       <button id="submitButton" class="btn btn-large" type="button" style="background-color: #8EA3A3; color:white; font-family: myFont;">INQUIRY</button>
+    </div>
+</form>
+    </div>
+<div class="col-sm-6 col-md-6 col-lg-6">
+<img src="edited -feminite/VSV_4169.JPG" alt="" class="img-fluid">
+</div>
+</div>
+
+<div class="container-fluid text-center cardOffers py-5 my-5  justify-content-center align-self-center">
+    <div class="row     text-center justify-content-center align-self-center ">
+        <div class="col-sm-12 col-md-4 col-lg-2 p-3 m-2 overflow-hidden  " style="background-color: white;  border:1px solid whitesmoke;">
+       <h3 style="font-family: myFont; font-weight: bold;">Diamond Collection</h3> 
+       <br>
+       <h4 style="font-family: myFont; color:#855F32">Pre Wedding Day Photography </h4>
+       <h5 style="font-family: myFont; color:#855F32">(we will choose a date and location together)</h5>
+       <br>
+       <h4 style="font-family: myFont; color:#855F32">Full Wedding Day Photography Coverage</h4>  
+       <br>
+       <h4 style="font-family: myFont; color:#855F32">After Wedding Artistic Photoshoot </h4> 
+       <h5 style="font-family: myFont; color:#855F32">(we will choose a date and location together)</h5>
+       <br>
+       <h6 style="font-family: myFont; color:#855F32">Delivery of all high quality photos digitally in a beautiful online gallery(downloadable)</h6>
+       <br>
+       <h4 style="font-family: myFont; color:#855F32">Printed Premium Quality Albums</h4>
+       <h5 style="font-family: myFont; color:#855F32">1 Big + Small(30 Spreads each)</h5>
+
+        </div>
+        
+            <div class=" col-sm-12 col-md-4  col-lg-2 p-3 m-2 overflow-hidden " style="background-color: white; border:1px solid whitesmoke;">
+                <h3 style="font-family: myFont; font-weight: bold;">Gold Collection</h3> 
+                <br>
+                <h4 style="font-family: myFont; color:#855F32">Full Wedding Day Photography Coverage</h4>  
+                <br>
+                <h4 style="font-family: myFont; color:#855F32">After Wedding Artistic Photoshoot </h4> 
+                <h5 style="font-family: myFont; color:#855F32">(we will choose a date and location together)</h5>
+                <br>
+                <h6 style="font-family: myFont; color:#855F32">Delivery of all high quality photos digitally in a beautiful online gallery(downloadable)</h6>
+                <br>
+                <h4 style="font-family: myFont; color:#855F32">Printed Premium Quality Albums</h4>
+                <h5 style="font-family: myFont; color:#855F32">1 Big + Small(30 Spreads each)</h5>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-2 p-3 m-2 overflow-hidden " style="background-color: white; border:1px solid whitesmoke;">
+                <h3 style="font-family: myFont; font-weight: bold;">Silver Collection</h3> 
+                <br>
+                <h4 style="font-family: myFont; color:#855F32">Full Wedding Day Photography Coverage</h4>  
+                <br>
+               
+                <h6 style="font-family: myFont; color:#855F32">Delivery of all high quality photos digitally in a beautiful online gallery(downloadable)</h6>
+                <br>
+                <h4 style="font-family: myFont; color:#855F32">Printed Premium Quality Albums</h4>
+                <h5 style="font-family: myFont; color:#855F32">1 Big + Small(30 Spreads each)</h5>
+            </div>
+        <div class="col-sm-12 col-md-4 col-lg-2 p-3  m-2 overflow-hidden " style="background-color: white; border:1px solid whitesmoke;">
+            <h3 style="font-family: myFont; font-weight: bold;">Silver Collection</h3> 
+            <br>
+            <h4 style="font-family: myFont; color:#855F32">Full Wedding Day Photography Coverage</h4>  
+            <br>
+           
+            <h6 style="font-family: myFont; color:#855F32">Delivery of all high quality photos digitally in a beautiful online gallery(downloadable)</h6>
+            
+            
+        </div>
+       
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+   <div class="container-fluid secondNav " style="background-color: #E0E0E0;">
+    <nav class="navbar navbar-expand-md btn-outline">
+ 
+             <a href="index.html" class="navbar-brand ms-2" >MarceloPhotography</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+     
+             <div class="collapse navbar-collapse" id="navbarId">
+                 <ul class="navbar-nav">
+                     <li class="navbar-item">
+                         <a href="boots.html#about" class="navbar-link " >About</a>
+                     </li>
+                     <li class="navbar-item">
+                         <a href="portfolio.html" class="navbar-link" >Portfolio</a>
+                     </li>
+                     <li class="navbar-item">
+                         <a href="#pricing" class="navbar-link" >Pricing</a>
+                     </li>
+                     <li class="navbar-item">
+                            <a href="contact.html" class=" navbar-link ">Contact</a>
+</li>
+                 </ul>
+                </div>
+
+         </nav>
+             </div>
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

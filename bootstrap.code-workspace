@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"bracket-pair-colorizer-2.colors": [
+
+			"Gold",
+			"Orchid",
+			"LightSkyBlue"
+		],
+		"editor.guides.bracketPairs": "active"
+	}
+}
