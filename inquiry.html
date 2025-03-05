@@ -76,26 +76,26 @@ color:#855F32; margin-top:2em;">GIVE US SOME INFORMATION AND WE WILL SEND YOU AN
 color:#855F32;">INQUIRY</h2>
 <div class="row">
     <div class="col-sm-6 col-md-6 col-lg-6" style="background-color: white; position:relative; top:3em; left:3em;">
-<form  id="inquiryForm" action="send_inquiry.php" method="POST">
+<form  id="inquiryForm" data-netlify="true" method="POST">
     <div class="mb-3">
         <label for="date" class="form-label" style="font-family: myFont;" >DATE OF WEDDING</label>
-        <input id="date" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
+        <input id="date" name="date" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
     </div>
     <div class="mb-3">
         <label for="location" class="form-label" style="font-family: myFont;">WEDDING LOCATION</label>
-        <input id="location" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
+        <input id="location" name="location" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
     </div>
     <div class="mb-3">
         <label for="names" class="form-label" style="font-family: myFont;">TYPE BRIDE'S AND GROOM'S NAMES</label>
-        <input id="names" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
+        <input id="names" name="names" type="text" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
     </div>
     <div class="mb-3">
         <label for="email" class="form-label" style="font-family: myFont;">YOUR EMAIL ADDRESS</label>
-        <input id="email" type="email" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
+        <input id="email" name="email" type="email" class="form-control" style="border:none; border-bottom: 1px solid black; border-radius:0; font-family: myFont; font-style: italic; ">
     </div>
     <div class="mb-3">
         <label for="collection" class="form-label" style="font-family: myFont;"></label>
-        <select name="collection" id="collection" class="form-select" style="font-family: myFont; border:none; border-bottom:1px solid black; border-radius:0; font-style:italic;">
+        <select name="selction" id="collection" class="form-select" style="font-family: myFont; border:none; border-bottom:1px solid black; border-radius:0; font-style:italic;">
             <option selected >Select option</option>
             <option value="Diamond" >Diamond</option>
             <option value="Gold" >Gold</option>
@@ -110,7 +110,7 @@ color:#855F32;">INQUIRY</h2>
     </div>
     <div class="mb-3">
         <label for="social" class="form-label" style="font-family: myFont;">IF YOU WANT YOU CAN SEND US YOUR INSTAGRAM OR OTHER SOCIAL ACCOUNT</label>
-        <input id="social" type="text" class="form-control" style="font-family: myFont; border:none; border-bottom:1px solid black; border-radius:0; font-style:italic;">
+        <input id="social" name="social-media" type="text" class="form-control" style="font-family: myFont; border:none; border-bottom:1px solid black; border-radius:0; font-style:italic;">
         <div class="form-text"><i style="font-family: myFont;">Let's connect</i></div>
     </div>
     <div class="mb-3" style="text-align: center;">
